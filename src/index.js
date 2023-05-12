@@ -125,3 +125,17 @@ const onInput = event => {
 
 
 inputEl.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
+
+
+
+const imageUrl = new URL('logo.png', import.meta.url);
+
+console.log(imageUrl.toString());
+
+// // згенерований код Parcel
+// var imageUrl2 = new URL(
+//   require('logo.png'),
+//   __ESM_IMPORT_META_URL__
+// );
+
+// console.log(imageUrl2.toString());
