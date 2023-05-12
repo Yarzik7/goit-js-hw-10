@@ -128,7 +128,7 @@ inputEl.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
 
 
 
-const imageUrl = new URL('logo.png', import.meta.url);
+const imageUrl = new URL('./images/logo.png', import.meta.url);
 
 console.log(imageUrl.toString());
 
